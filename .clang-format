@@ -1,0 +1,19 @@
+# BBC Robotics C++ style: WebKit style, plus "always use braces".
+# Lives in the top folder of your team repo, so it applies to every project in Software/.
+# VS Code: right-click -> Format Document, or turn on "Format On Save".
+BasedOnStyle: WebKit
+IndentWidth: 4
+UseTab: Never
+ColumnLimit: 0
+
+# Club exception to WebKit: always put braces on if/for/while bodies.
+InsertBraces: true
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortBlocksOnASingleLine: Never
+
+# Short one-line getters inside a class are fine: bool isOn() const { return m_isOn; }
+AllowShortFunctionsOnASingleLine: InlineOnly
+
+# Keep #include order as written (Arduino.h usually needs to come first).
+SortIncludes: Never

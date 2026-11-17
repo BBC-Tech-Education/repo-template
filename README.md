@@ -4,7 +4,7 @@
 
 **League:** <Soccer / Rescue Line / Rescue Maze>
 **Season:** <2027>
-**Team members:** <first names>
+**Team members:** <first names only>
 
 <!-- Add a photo of your robot once you have one: -->
 <!-- ![Our robot](Documentation/Photos/robot.jpg) -->
@@ -27,6 +27,8 @@
 | --- | --- | --- |
 | [`Software/Teensy-Main`](Software/Teensy-Main) | Teensy 4.1 | <Main controller: sensors, strategy, motors> |
 | [`Software/OpenMV-Camera`](Software/OpenMV-Camera) | OpenMV <model> | <Vision: ball / goal / victim detection> |
+
+<!-- Mega 2560 team, or no camera? See Software/README.md for what to change. -->
 
 **To open the code:** double-click `robot.code-workspace` to open every project in VS Code, or use PlatformIO → *Open Project* and pick a folder inside `Software/`.
 
